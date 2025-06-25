@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Token Copier</title>
+  <style>
+    body { font-family: system-ui, "Segoe UI Emoji", "Apple Color Emoji", sans-serif; padding: 10px; width: 220px; }
+    button {
+      margin: 6px 0;
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #copy { background-color: #4caf50; color: white; }
+    #paste { background-color: #2196f3; color: white; }
+    #clear { background-color: #f44336; color: white; }
+    #status { margin-top: 10px; font-size: 12px; color: #555; }
+  </style>
+</head>
+<body>
+  <h3>Dev Token Sync</h3>
+  <button id="copy">Copy Auth Data</button>
+  <button id="paste">Paste to Current</button>
+  <button id="clear">Clear Injected Data</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
