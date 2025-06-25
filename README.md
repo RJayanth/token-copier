@@ -104,4 +104,4 @@ PRs welcome! Ideas you could contribute:
 
 ## 📄 License
 
-MIT © [Your Name or Organization]
+MIT © Jayanth R
